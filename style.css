@@ -1,0 +1,143 @@
+body{
+    background-color: rgba(190, 94, 94, 0.425);
+    padding: 0;
+    border:0;
+    margin: 0;
+}
+/* Logo e Navbar */
+.top{
+    width: 100vw;
+    height: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(245, 192, 192, 0.425);
+}
+.top >span{
+    font-size:5vw;
+    font-family:'Pattaya';
+    position: relative;
+    left: 5%;
+
+}
+.top_element >a {
+    text-decoration: none;
+    font-size: 2.5vw;
+    position: relative;
+    right: 10%;
+    font-family: "poppins";
+    color: rgb(255, 253, 253);
+    
+}
+.top_element>a:hover{
+    color: black;
+
+}
+/* Sezione 1 e about me (parte sinistra) */
+.section1{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 2px red;
+    background-color:rgba(177, 85, 85, 0.31);
+
+}
+.section1 >img {
+    width: 50%;
+    height: 60%;
+    border-radius: 30%;
+    position: relative;
+    left: 10%;
+    bottom: 10%;
+}
+.section1 >h3 {
+    position: relative;
+    top: 35%;
+    right: 20%;
+    font-family: "Pattaya";
+    font-weight: 100;
+    
+    
+
+}
+/* Sezione 1 e about me (parte destra) */
+.section1_element{
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    border: solid 2px rgb(38, 24, 129);
+
+
+}
+.section1_element>h2,p,a{
+    font-size: 50%;
+}
+.section1_element>h2{
+    position: relative;
+    left: 40%;
+    top:13%;
+    color: rgb(255, 253, 253) ;
+    font-family: "poppins";
+    text-align: center;
+    white-space: nowrap;
+    
+
+}
+.section1_element>p{
+    
+    height: 1%;
+    font-family: "poppins",sans-serif;
+    padding-top: 5%;
+    text-align: center;
+    font-weight: lighter;
+    color:white ;
+    font-weight: 600;
+    position: relative;
+    left: -9%;
+    top:15%
+    
+
+    
+    
+}
+.button{
+    display: flex;
+    border-radius: 4%;
+    width: 25%;
+    height: 3%;
+    position: absolute;
+    top: 33%;
+    left: 70%;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(246, 246, 246, 0.466) ;
+    border: solid 1px yellow;
+    
+
+
+}
+.button>a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.402);
+}
+.icone{
+    border: solid 2px green;
+    width: 25%;
+    height: 3%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 37%;
+    left: 70%;
+    
+}
+.icone>object{
+    max-width: 10%;
+    position: relative;
+    margin: 5%;
+
+}
+
+
